@@ -1,0 +1,110 @@
+body {
+    height: auto;
+    /* width: 100%; */
+    background-color: #eaeaea;
+}
+
+.keseluruhan {
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    margin-top: -20px;
+    background-color: white;
+    height: 1300px;
+    position: relative;
+}
+
+.header {
+    background-color: dodgerblue;
+    width: 960px;
+    position: fixed;
+}
+
+.header .judul {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+
+}
+
+.heroimage img {
+    /* height: 400px;
+    background-image: url('rozinn.png');
+    background-size: ; */
+    height: 500px;
+    width: 960px;
+    padding-top: 149px;
+}
+
+.judulsidebar .judul {
+    margin-bottom: -20px;
+    margin-left: 25px;
+}
+
+.judulsidebar .judulkecil {
+    margin-left: 25px;
+}
+
+.sidebar {
+    position: relative;
+}
+
+.sidebar .sidebarsatu {
+    background-color: #ffffff;
+    width: 575px;
+    height: 500px;
+    margin-left: 25px;
+    float: left;
+}
+
+.sidebar .space {
+    background-color: #ffffff;
+    width: 30px;
+    height: 500px;
+    float: left;
+}
+
+.sidebar .sidebardua {
+    background-color: #ffffff;
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+.sidebardua img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 20px
+}
+
+.sidebardua .p {
+    text-align: justify;
+}
+
+.footer {
+    width: 920px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    margin-top: 540px;
+    padding: 20px;
+    text-align: center;
+}
